@@ -1,0 +1,23 @@
+.App {
+    width: 70vw;
+    max-width: 1000px;
+}
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+a {
+    color: inherit;
+}
+
+h2 {
+    font-size: 1.5em;
+}

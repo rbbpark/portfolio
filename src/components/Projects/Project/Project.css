@@ -1,0 +1,59 @@
+.Project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    flex: 0 1 40%;
+    margin-bottom: 20px;
+}
+
+.Project img {
+    width: 100%;
+    height: auto;
+}
+
+.Project ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Project ul li {
+    margin: 3px 3px 3px 0;
+    /*font-family: monospace;*/
+    font-size: .75rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.Project i {
+    font-size: 1.5em;
+}
+
+.projectContent {
+    padding: 20px;
+}
+
+.projectLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projectLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.projectLinks a {
+    margin-left: 10px;
+}
+
+.Project p {
+    margin: 10px 0;
+}

@@ -1,0 +1,54 @@
+.About {
+    min-height: 100vh;
+    /*margin: 10vh 0;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutSection {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.aboutText {
+    flex: 3;
+}
+
+.aboutText p {
+    margin-bottom: 10px;
+}
+
+.aboutSection h2 {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.skillsSection {
+    display: flex;
+    flex-direction: row;
+}
+
+.skillsSection ul {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skillsSection ul li {
+    background: #e4e4ea;
+    list-style: none;
+    font-size: 1.2em;
+    margin: 0 14px 14px 0;
+    padding: 5px 10px;
+}
+
+.skillsSection h2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
