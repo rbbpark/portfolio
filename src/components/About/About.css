@@ -1,6 +1,7 @@
 .About {
     min-height: 100vh;
-    /*margin: 10vh 0;*/
+    width: 80vw;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,4 +52,19 @@
     flex: 1;
     display: flex;
     justify-content: center;
+}
+
+
+@media (max-width: 1024px) {
+    .aboutSection {
+        flex-direction: column;
+    }
+
+    .skillsSection {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+/*small font*/
 }

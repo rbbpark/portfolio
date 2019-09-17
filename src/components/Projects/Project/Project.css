@@ -4,8 +4,7 @@
     justify-content: center;
     align-items: center;
     background: lightgray;
-    flex: 0 1 40%;
-    margin-bottom: 20px;
+    /*flex: 0 1 40%;*/
 }
 
 .Project img {
@@ -16,6 +15,11 @@
 .Project ul {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.Project h2 {
+    margin-top: 10px;
 }
 
 .Project ul li {
@@ -37,17 +41,11 @@
     padding: 20px;
 }
 
-.projectLine {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .projectLinks {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .projectLinks a {

@@ -9,23 +9,21 @@ class Project extends Component {
                 <img alt='projectImg' src={projectImg}/>
                 <div className='projectContent'>
                     <h2>Product Title</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                    </ul>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore
                         et dolore magna aliqua.
                     </p>
-                    <div className='projectLine'>
-                        <ul>
-                            <li>Java</li>
-                            <li>JavaScript</li>
-                            <li>Python</li>
-                            <li>SQL</li>
-                        </ul>
                         <div className='projectLinks'>
                             <a href="#"><i className="fas fa-external-link-alt"/></a>
                             <a href="#"><i className="fab fa-github"/></a>
                         </div>
-                    </div>
                 </div>
             </div>
         );

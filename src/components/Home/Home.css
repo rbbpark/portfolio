@@ -22,8 +22,8 @@
 }
 
 .profilePicWrapper {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
 
     margin-bottom: 50px;
 }
@@ -37,7 +37,7 @@
 .socialLinks {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .navBar {
