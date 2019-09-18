@@ -1,6 +1,6 @@
 .Home i {
-    font-size: 32pt;
-    margin: 20px;
+    font-size: 28pt;
+    margin: 0 20px;
 }
 
 .Home {
@@ -18,7 +18,7 @@
 }
 
 .homeContent h1 {
-    font-size: 4em;
+    font-size: 36pt;
 }
 
 .profilePicWrapper {
@@ -37,7 +37,7 @@
 .socialLinks {
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .navBar {
@@ -49,4 +49,15 @@
 
 .navBar a{
     margin: 10px;
+}
+
+
+@media (max-width: 1024px) {
+    .Home h1 {
+        font-size: 32pt;
+    }
+}
+
+@media (max-width: 600px) {
+    /*small font*/
 }

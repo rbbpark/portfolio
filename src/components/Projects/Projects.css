@@ -10,7 +10,7 @@
 
 .projectsWrapper {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
 }
@@ -26,7 +26,7 @@
     }
 
     .projectsWrapper {
-        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -36,6 +36,6 @@
     }
 
     .projectsWrapper {
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
     }
 }

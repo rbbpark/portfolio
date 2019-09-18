@@ -9,39 +9,18 @@ class About extends Component {
                     <h2>About</h2>
                     <div className='aboutText'>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                            in
-                            culpa qui officia deserunt mollit anim id est laborum.
+                            Hi, I'm Robby Park! I am a recent college grad majoring in Computer Science from UC Davis.
                         </p>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                            in
-                            culpa qui officia deserunt mollit anim id est laborum.
+                            I'm passionate about building cool products that make people's lives easier.
+                            Based in San Jose, I am currently working at an internship at BlackBerry developing Android and
+                            iOS apps.
                         </p>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                            in
-                            culpa qui officia deserunt mollit anim id est laborum.
+                            I'm interested in learning as much as I can about developing high quality, scalable
+                            software. Outside of work, I like to spend my time exploring the Bay Area, gaming, and drawing.
                         </p>
                     </div>
                 </div>
@@ -50,7 +29,7 @@ class About extends Component {
                     <h2>Skills</h2>
                     <ul>
                         <li>Java</li>
-                        <li>JavaScript (ES6)</li>
+                        <li>JavaScript (ES6+)</li>
                         <li>Python</li>
                         <li>HTML</li>
                         <li>CSS</li>

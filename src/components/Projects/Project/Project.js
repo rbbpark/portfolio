@@ -8,18 +8,14 @@ class Project extends Component {
             <div className="Project">
                 <img alt='projectImg' src={projectImg}/>
                 <div className='projectContent'>
-                    <h2>Product Title</h2>
+                    <h2>{this.props.title}</h2>
                     <ul>
                         <li>Java</li>
                         <li>JavaScript</li>
                         <li>Python</li>
                         <li>SQL</li>
                     </ul>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua.
-                    </p>
+                    <p>{this.props.desc}</p>
                         <div className='projectLinks'>
                             <a href="#"><i className="fas fa-external-link-alt"/></a>
                             <a href="#"><i className="fab fa-github"/></a>

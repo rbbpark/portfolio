@@ -11,7 +11,7 @@
 .aboutSection {
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .aboutText {
@@ -22,7 +22,7 @@
     margin-bottom: 10px;
 }
 
-.aboutSection h2 {
+.About h2 {
     display: flex;
     justify-content: center;
     flex: 1;
@@ -48,12 +48,6 @@
     padding: 5px 10px;
 }
 
-.skillsSection h2 {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
-
 
 @media (max-width: 1024px) {
     .aboutSection {
@@ -62,6 +56,14 @@
 
     .skillsSection {
         flex-direction: column;
+    }
+
+    .skillsSection ul {
+        justify-content: center;
+    }
+
+    .About h2 {
+        margin-bottom: 15px;
     }
 }
 

@@ -7,8 +7,8 @@ class Home extends Component {
         return (
             <div className="Home">
                 <div className='navBar'>
-                    <a href='#'>About</a>
                     <a href='#'>Projects</a>
+                    <a href='#'>About</a>
                     <a href='#'>Contact</a>
                 </div>
 

@@ -8,15 +8,29 @@ class Projects extends Component {
             <div className="Projects">
                 <h1>Projects</h1>
                 <div className='projectsWrapper'>
-                    <Project></Project>
-                    <Project></Project>
-                    <Project></Project>
-                    <Project></Project>
-                    <Project></Project>
-                    <Project></Project>
+                    {this.renderProject('Movie Recommender', 'A movie recommender.', '', '')}
+                    {this.renderProject('InstaClone', 'An Instagram clone built with Android and Firebase.', '', '')}
+                    {this.renderProject('Simple Weather', 'A multi-screen weather Android app.', '', '')}
+
+                    {this.renderProject('Placeholder', 'A multi-screen weather Android app.', '', '')}
+                    {this.renderProject('Placeholder', 'A multi-screen weather Android app.', '', '')}
+                    {this.renderProject('Placeholder', 'A multi-screen weather Android app.', '', '')}
+
                 </div>
             </div>
         );
+    }
+
+    renderProject(title, desc, demoUrl, gitUrl) {
+        let props = {
+            title: title,
+            desc: desc,
+            demoUrl: demoUrl,
+            gitUrl: gitUrl
+        };
+        return (
+            <Project {...props}/>
+        )
     }
 }
 

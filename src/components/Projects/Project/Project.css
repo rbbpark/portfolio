@@ -1,8 +1,8 @@
 .Project {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: stretch;
     background: lightgray;
     /*flex: 0 1 40%;*/
 }
@@ -10,16 +10,17 @@
 .Project img {
     width: 100%;
     height: auto;
+    flex: 1;
 }
 
 .Project ul {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .Project h2 {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .Project ul li {
@@ -38,7 +39,12 @@
 }
 
 .projectContent {
-    padding: 20px;
+    padding: 10px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
 }
 
 .projectLinks {
@@ -53,5 +59,6 @@
 }
 
 .Project p {
-    margin: 10px 0;
+    margin: 5px 0;
+    flex: 1;
 }
