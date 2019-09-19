@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './Projects.css'
 import Project from './Project/Project'
 
@@ -8,25 +8,42 @@ class Projects extends Component {
             <div className="Projects">
                 <h1>Projects</h1>
                 <div className='projectsWrapper'>
-                    {this.renderProject('Movie Recommender', 'A movie recommender.', '', '')}
-                    {this.renderProject('InstaClone', 'An Instagram clone built with Android and Firebase.', '', '')}
-                    {this.renderProject('Simple Weather', 'A multi-screen weather Android app.', '', '')}
+                    {this.renderProject(
+                        'Movie Recommender',
+                        'A machine learning movie recommender system deployed as a web app with JS and Node.',
+                        'http://www.robbypark.com/movies',
+                        'https://github.com/robbypark/movie_recommender',
+                        ['JavaScript', 'Node', 'Python', 'Machine Learning']
+                    )}
 
-                    {this.renderProject('Placeholder', 'A multi-screen weather Android app.', '', '')}
-                    {this.renderProject('Placeholder', 'A multi-screen weather Android app.', '', '')}
-                    {this.renderProject('Placeholder', 'A multi-screen weather Android app.', '', '')}
+                    {this.renderProject(
+                        'InstaClone',
+                        'An Instagram clone built with Android and Firebase.',
+                        '',
+                        'https://github.com/robbypark/InstaClone',
+                        ['Java', 'Android', 'Firebase']
+                    )}
+
+                    {this.renderProject(
+                        'Simple Weather',
+                        'A multi-screen weather Android app.',
+                        '',
+                        'https://github.com/robbypark/SimpleWeather2',
+                        ['Java', 'Android', 'Location Services', 'Weather API']
+                    )}
 
                 </div>
             </div>
         );
     }
 
-    renderProject(title, desc, demoUrl, gitUrl) {
+    renderProject(title, desc, demoUrl, gitUrl, tech) {
         let props = {
             title: title,
             desc: desc,
             demoUrl: demoUrl,
-            gitUrl: gitUrl
+            gitUrl: gitUrl,
+            tech: tech,
         };
         return (
             <Project {...props}/>

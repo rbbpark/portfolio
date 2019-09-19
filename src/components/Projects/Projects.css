@@ -1,7 +1,7 @@
 .Projects {
     min-height: 100vh;
     width: 85vw;
-    max-width: 1200px;
+    max-width: 1300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,20 +21,12 @@
 
 
 @media (max-width: 1024px) {
-    .Projects {
-        background: blue;
-    }
-
     .projectsWrapper {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (max-width: 600px) {
-    .Projects {
-        background: yellow;
-    }
-
     .projectsWrapper {
         grid-template-columns: 1fr;
     }

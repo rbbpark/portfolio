@@ -6,7 +6,7 @@ class About extends Component {
         return (
             <div className="About">
                 <div className='aboutSection'>
-                    <h2>About</h2>
+                    <h2>About Me</h2>
                     <div className='aboutText'>
                         <p>
                             Hi, I'm Robby Park! I am a recent college grad majoring in Computer Science from UC Davis.
@@ -14,13 +14,13 @@ class About extends Component {
 
                         <p>
                             I'm passionate about building cool products that make people's lives easier.
-                            Based in San Jose, I am currently working at an internship at BlackBerry developing Android and
-                            iOS apps.
+                            Based in San Jose, I am currently working at an internship at BlackBerry developing mobile apps.
                         </p>
 
                         <p>
                             I'm interested in learning as much as I can about developing high quality, scalable
-                            software. Outside of work, I like to spend my time exploring the Bay Area, gaming, and drawing.
+                            software for the web. Outside of work, I like to spend my time exploring the Bay Area, gaming, and
+                            drawing.
                         </p>
                     </div>
                 </div>

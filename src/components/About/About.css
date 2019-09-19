@@ -20,6 +20,7 @@
 
 .aboutText p {
     margin-bottom: 10px;
+    font-size: 1.2em;
 }
 
 .About h2 {
@@ -41,11 +42,14 @@
 }
 
 .skillsSection ul li {
-    background: #e4e4ea;
     list-style: none;
     font-size: 1.2em;
     margin: 0 14px 14px 0;
     padding: 5px 10px;
+
+    background: #cfd7ff;
+    border: 1px solid #4e57ef;
+    box-shadow: 3px 4px 0px #4e57ef;
 }
 
 

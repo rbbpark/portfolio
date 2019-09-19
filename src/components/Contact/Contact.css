@@ -24,3 +24,7 @@
 .contactContent a {
     margin-top: 50px;
 }
+
+.contactContent p {
+    font-size: 1.2em;
+}

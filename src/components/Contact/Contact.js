@@ -8,9 +8,7 @@ class Contact extends Component {
                 <div className='contactContent'>
                     <h1>Get In Touch</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat.
+                        I'm currently available for opportunities in developer roles in the SF Bay Area. Please leave a message if you are interested. Thank you!
                     </p>
                     <a href='#'>Contact</a>
                 </div>
