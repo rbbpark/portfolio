@@ -17,7 +17,8 @@ class Home extends Component {
                         <img className='profilePic' alt='profilePic' src={profilePic}/>
                     </div>
 
-                    <h1>Hi, I'm Robby Park.</h1>
+                    <h1>Hi, I'm Robby Park 👋</h1>
+                    <h2>I like to build things.</h2>
 
                     <div className='socialLinks'>
                         <a href="#"><i className="far fa-envelope"/></a>

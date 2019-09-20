@@ -1,8 +1,3 @@
-.Home i {
-    font-size: 28pt;
-    margin: 0 20px;
-}
-
 .Home {
     min-height: 100vh;
     display: flex;
@@ -18,12 +13,19 @@
 }
 
 .homeContent h1 {
-    font-size: 36pt;
+    font-size: 32pt;
 }
 
+.homeContent h2 {
+    margin-top: 10px;
+    font-size: 20pt;
+    color: #696A6F;
+}
+
+
 .profilePicWrapper {
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
 
     margin-bottom: 50px;
 }
@@ -37,24 +39,47 @@
 .socialLinks {
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
+    margin-top: 60px;
+}
+
+.socialLinks i {
+    font-size: 24pt;
+}
+
+.socialLinks a {
+    margin: 0 20px;
 }
 
 .navBar {
     position: absolute;
     right: 0;
     top: 0;
-    margin: 25px;
+    padding: 30px 40px;
 }
 
-.navBar a{
-    margin: 10px;
+.navBar a {
+    margin: 0 20px;
+    color: #CACACC;
+    text-decoration: none;
+}
+
+.navBar a:hover {
+    color: #3844ef;
+    transition: 0.2s;
 }
 
 
 @media (max-width: 1024px) {
     .Home h1 {
-        font-size: 32pt;
+        font-size: 20pt;
+    }
+
+    .Home h2 {
+        font-size: 12pt;
+    }
+
+    .Home i {
+        font-size: 20px;
     }
 }
 

@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 .contactContent {
@@ -21,10 +21,23 @@
     margin-bottom: 50px;
 }
 
+/* Contact button */
 .contactContent a {
-    margin-top: 50px;
+    margin-top: 80px;
+    padding: 15px 25px;
+    color: #f44336;
+    /*background: #f44336;*/
+    border: 2px solid #f44336;
+    border-radius: 3px;
+    font-size: 18pt;
+    text-decoration: none;
+}
+
+.contactContent a:hover {
+    background: rgba(244, 67, 54, .1);
+    transition: 0.2s;
 }
 
 .contactContent p {
-    font-size: 1.2em;
+    font-size: 1em;
 }

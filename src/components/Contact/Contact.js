@@ -8,12 +8,11 @@ class Contact extends Component {
                 <div className='contactContent'>
                     <h1>Get In Touch</h1>
                     <p>
-                        I'm currently available for opportunities in developer roles in the SF Bay Area. Please leave a message if you are interested. Thank you!
+                        I'm currently available for opportunities in developer roles in the Bay Area. Please leave a message, and thanks for checking out my site!
                     </p>
                     <a href='#'>Contact</a>
                 </div>
             </div>
-
         );
     }
 }

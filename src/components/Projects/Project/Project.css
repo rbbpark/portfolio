@@ -3,10 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
-    /*flex: 0 1 40%;*/
-    background: #cfd7ff;
-    border: 1px solid #4e57ef;
-    box-shadow: 4px 5px 0px #4e57ef;
+    background: rgb(47, 49, 59);
 }
 
 .Project img {
@@ -23,17 +20,18 @@
 
 .Project h2 {
     margin-top: 5px;
+    color: #E9BC3F;
 }
 
 .Project ul li {
-    margin: 3px 3px 3px 0;
+    margin: 5px 8px 5px 0;
     /*font-family: monospace;*/
     font-size: .75rem;
     font-weight: 700;
-    padding: 3px 5px 1px 5px;
-    color: #4e57ef;
-    border: 1px solid #4e57ef;
-    /*box-shadow: 1px 2px 0px #4e57ef;*/
+    padding: 3px 5px 3px 5px;
+    color: #3844ef;
+    border: 1px solid #3844ef;
+    border-radius: 2px;
 }
 
 .Project i {
@@ -42,11 +40,12 @@
 
 .projectContent {
     padding: 10px;
-    min-height: 175px;
+    /*min-height: 175px;*/
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: stretch;
+    flex: 2;
 }
 
 .projectLinks {
@@ -63,10 +62,11 @@
 .Project p {
     margin: 5px 0;
     flex: 1;
+    font-size: 14px;
 }
 
 .linkDisabled {
     pointer-events: none;
     cursor: default;
-    opacity: 0.3;
+    opacity: 0.2;
 }

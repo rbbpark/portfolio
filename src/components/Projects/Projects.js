@@ -32,6 +32,22 @@ class Projects extends Component {
                         ['Java', 'Android', 'Location Services', 'Weather API']
                     )}
 
+                    {this.renderProject(
+                        'PlaceHolder',
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                        '',
+                        '',
+                        ['Java', 'Android', 'Location Services', 'Weather API']
+                    )}
+
+                    {this.renderProject(
+                        'PlaceHolder',
+                        '',
+                        '',
+                        '',
+                        ['Java', 'Android', 'Location Services', 'Weather API']
+                    )}
+
                 </div>
             </div>
         );

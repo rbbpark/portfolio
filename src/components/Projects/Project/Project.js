@@ -8,7 +8,7 @@ class Project extends Component {
     // disables link if empty string
     renderGitUrl(url) {
         if(url.length === 0) {  // empty string
-            return <a href='#'><i className="fab fa-github disabledLink"/></a>;
+            return <a className="linkDisabled"><i className="fab fa-github disabledLink"/></a>;
         } else {
             return <a href={url}><i className="fab fa-github"/></a>;
         }

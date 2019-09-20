@@ -13,6 +13,10 @@ class App extends Component {
                 <Projects/>
                 <About/>
                 <Contact/>
+
+                <div className='footer'>
+                    <p>Made with React</p>
+                </div>
             </div>
         );
     }

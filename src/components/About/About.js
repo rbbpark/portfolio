@@ -9,7 +9,7 @@ class About extends Component {
                     <h2>About Me</h2>
                     <div className='aboutText'>
                         <p>
-                            Hi, I'm Robby Park! I am a recent college grad majoring in Computer Science from UC Davis.
+                            Hi, I'm Robby Park. I am a recent college grad majoring in Computer Science from UC Davis.
                         </p>
 
                         <p>
@@ -19,8 +19,7 @@ class About extends Component {
 
                         <p>
                             I'm interested in learning as much as I can about developing high quality, scalable
-                            software for the web. Outside of work, I like to spend my time exploring the Bay Area, gaming, and
-                            drawing.
+                            software. Outside of work, I like to spend my time exploring the Bay Area, gaming, and <a href='#'>drawing.</a>
                         </p>
                     </div>
                 </div>

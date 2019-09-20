@@ -1,32 +1,40 @@
 .About {
-    min-height: 100vh;
+    min-height: 80vh;
     width: 80vw;
     max-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 
 .aboutSection {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     margin-bottom: 50px;
 }
 
+.aboutSection h2 {
+    color: #E9BC3F;
+}
+
 .aboutText {
-    flex: 3;
+    flex: 5;
 }
 
 .aboutText p {
+    font-size: 14pt;
+    letter-spacing: -1px;
+    color: #CACACC;
     margin-bottom: 10px;
-    font-size: 1.2em;
 }
 
 .About h2 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex: 1;
+    margin-right: 50px;
 }
 
 .skillsSection {
@@ -34,8 +42,12 @@
     flex-direction: row;
 }
 
+.skillsSection h2 {
+    color: #f44336;
+}
+
 .skillsSection ul {
-    flex: 3;
+    flex: 5;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -43,14 +55,19 @@
 
 .skillsSection ul li {
     list-style: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 0 14px 14px 0;
     padding: 5px 10px;
-
-    background: #cfd7ff;
-    border: 1px solid #4e57ef;
-    box-shadow: 3px 4px 0px #4e57ef;
+    color: #CACACC;
+    background: #393e46;
+    /*border: 1px solid #191a1f;*/
+    /*box-shadow: 3px 4px 0px #121317;*/
 }
+
+.coloredText {
+    color: #E9BC3F;
+}
+
 
 
 @media (max-width: 1024px) {
@@ -68,6 +85,8 @@
 
     .About h2 {
         margin-bottom: 15px;
+        margin-right: 0;
+        justify-content: center;
     }
 }
 
