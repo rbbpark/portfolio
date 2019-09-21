@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor'
+
 import './Projects.css'
 import Project from './Project/Project'
 
@@ -6,7 +8,9 @@ class Projects extends Component {
     render() {
         return (
             <div className="Projects">
-                <h1>Projects</h1>
+                <ScrollableAnchor id={'project-section'}>
+                    <h1>Projects</h1>
+                </ScrollableAnchor>
                 <div className='projectsWrapper'>
                     {this.renderProject(
                         'Movie Recommender',
@@ -40,13 +44,13 @@ class Projects extends Component {
                         ['Java', 'Android', 'Location Services', 'Weather API']
                     )}
 
-                    {this.renderProject(
-                        'PlaceHolder',
-                        '',
-                        '',
-                        '',
-                        ['Java', 'Android', 'Location Services', 'Weather API']
-                    )}
+                    {/*{this.renderProject(*/}
+                    {/*    'PlaceHolder',*/}
+                    {/*    '',*/}
+                    {/*    '',*/}
+                    {/*    '',*/}
+                    {/*    ['Java', 'Android', 'Location Services', 'Weather API']*/}
+                    {/*)}*/}
 
                 </div>
             </div>

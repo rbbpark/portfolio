@@ -1,15 +1,21 @@
 import React, {Component} from 'react';
 import './About.css'
+import ScrollableAnchor from "react-scrollable-anchor";
 
 class About extends Component {
     render() {
         return (
             <div className="About">
+
+                <ScrollableAnchor id={'about-section'}>
+                    <a className='floatingAnchor'/>
+                </ScrollableAnchor>
+
                 <div className='aboutSection'>
                     <h2>About Me</h2>
                     <div className='aboutText'>
                         <p>
-                            Hi, I'm Robby Park. I am a recent college grad majoring in Computer Science from UC Davis.
+                            Hi, I'm Robby Park. I'm a recent college grad majoring in Computer Science from UC Davis.
                         </p>
 
                         <p>
@@ -37,14 +43,15 @@ class About extends Component {
                         <li>Node</li>
                         <li>Express</li>
                         <li>Bootstrap</li>
+                        <li>Android</li>
                         <li>Firebase</li>
                         <li>Git</li>
                         <li>Linux</li>
                         <li>Jira</li>
                         <li>Jenkins</li>
-                        <li>Android</li>
                     </ul>
                 </div>
+
             </div>
         );
     }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import './Home.css'
 import profilePic from '../../res/profile.png'
 
@@ -7,9 +8,9 @@ class Home extends Component {
         return (
             <div className="Home">
                 <div className='navBar'>
-                    <a href='#'>Projects</a>
-                    <a href='#'>About</a>
-                    <a href='#'>Contact</a>
+                    <a href='#project-section'>Projects</a>
+                    <a href='#about-section'>About</a>
+                    <a href='#contact-section'>Contact</a>
                 </div>
 
                 <div className="homeContent">

@@ -4,6 +4,23 @@ import projectImg from '../../../res/project_placeholder.jpg'
 
 class Project extends Component {
 
+    render() {
+        return (
+            <div className="Project">
+                <img alt='projectImg' src={projectImg}/>
+                <div className='projectContent'>
+                    <h2>{this.props.title}</h2>
+                    {this.renderTech(this.props.tech)}
+                    <p>{this.props.desc}</p>
+                        <div className='projectLinks'>
+                            {this.renderDemoUrl(this.props.demoUrl)}
+                            {this.renderGitUrl(this.props.gitUrl)}
+                        </div>
+                </div>
+            </div>
+        );
+    }
+
     // renders a working link
     // disables link if empty string
     renderGitUrl(url) {
@@ -24,6 +41,7 @@ class Project extends Component {
         }
     }
 
+    // input must be an array
     renderTech(items) {
         if(items) {
             return (
@@ -34,23 +52,6 @@ class Project extends Component {
                 </ul>
             )
         }
-    }
-
-    render() {
-        return (
-            <div className="Project">
-                <img alt='projectImg' src={projectImg}/>
-                <div className='projectContent'>
-                    <h2>{this.props.title}</h2>
-                    {this.renderTech(this.props.tech)}
-                    <p>{this.props.desc}</p>
-                        <div className='projectLinks'>
-                            {this.renderDemoUrl(this.props.demoUrl)}
-                            {this.renderGitUrl(this.props.gitUrl)}
-                        </div>
-                </div>
-            </div>
-        );
     }
 }
 

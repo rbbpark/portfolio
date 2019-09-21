@@ -24,7 +24,7 @@
 }
 
 .aboutText p {
-    font-size: 14pt;
+    font-size: 12pt;
     letter-spacing: -1px;
     color: #CACACC;
     margin-bottom: 10px;
@@ -55,7 +55,7 @@
 
 .skillsSection ul li {
     list-style: none;
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 0 14px 14px 0;
     padding: 5px 10px;
     color: #CACACC;
@@ -68,6 +68,10 @@
     color: #E9BC3F;
 }
 
+.floatingAnchor {
+    position: relative;
+    bottom: 20vh;
+}
 
 
 @media (max-width: 1024px) {
