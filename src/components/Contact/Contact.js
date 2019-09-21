@@ -13,7 +13,7 @@ class Contact extends Component {
                     <p>
                         I'm currently available for opportunities in developer roles in the Bay Area. Please leave a message, and thanks for checking out my site!
                     </p>
-                    <a href='#'>Contact</a>
+                    <a href='mailto:rbbpark@gmail.com'>Contact</a>
                 </div>
             </div>
         );

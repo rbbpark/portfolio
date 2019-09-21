@@ -22,12 +22,14 @@ class Home extends Component {
                     <h2>I like to build things.</h2>
 
                     <div className='socialLinks'>
-                        <a href="#"><i className="far fa-envelope"/></a>
-                        <a href="#"><i className="fab fa-github"/></a>
-                        <a href="#"><i className="fab fa-linkedin-in"/></a>
+                        <a href="mailto:rbbpark@gmail.com"><i className="far fa-envelope"/></a>
+                        <a href="https://github.com/robbypark"><i className="fab fa-github"/></a>
+                        <a href="https://www.linkedin.com/in/rbpark/"><i className="fab fa-linkedin-in"/></a>
                         <a href="#"><i className="far fa-file-pdf"/></a>
                     </div>
                 </div>
+
+                <a className='downArrow' href="#project-section"><i className="fas fa-arrow-circle-down"/></a>
             </div>
         );
     }

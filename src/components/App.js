@@ -8,7 +8,7 @@ import Contact from "./Contact/Contact";
 import { configureAnchors } from 'react-scrollable-anchor'
 
 // Offset all anchors by a fixed amount and scroll more quickly than the default 400ms
-configureAnchors({offset: -60, scrollDuration: 200});
+configureAnchors({offset: -60, scrollDuration: 400});
 
 class App extends Component {
     render() {
