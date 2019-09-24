@@ -4,6 +4,8 @@
     justify-content: flex-start;
     align-items: stretch;
     background: rgb(47, 49, 59);
+    border-radius: 3px;
+    overflow: hidden;
 }
 
 .Project img {

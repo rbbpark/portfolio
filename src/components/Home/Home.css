@@ -26,7 +26,7 @@
 .profilePicWrapper {
     width: 175px;
     height: 175px;
-
+    /*filter: grayscale(20%);*/
     margin-bottom: 50px;
 }
 
@@ -81,6 +81,15 @@
 }
 
 
+.particleBg {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    opacity: .5;
+    z-index: -10;
+}
+
+
 @media (max-width: 1024px) {
     /*small font*/
     .Home h1 {
@@ -100,6 +109,9 @@
         height: 125px;
     }
 
+    .particleBg {
+        display:none;
+    }
 }
 
 @media (max-width: 600px) {
