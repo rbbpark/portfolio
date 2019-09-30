@@ -19,12 +19,11 @@ class About extends Component {
                         </p>
 
                         <p>
-                            I'm passionate about building cool products that make people's lives easier.
-                            Based in San Jose, I am currently working at an internship at BlackBerry developing secure mobile apps.
+                            I'm passionate about building cool products that make people's lives easier. Based in San Jose, I am currently working at an internship at BlackBerry developing secure mobile apps.
                         </p>
 
                         <p>
-                            I'm interested in learning as much as I can about developing high quality, scalable
+                             I'm eager to learn as much as I can about developing high quality, scalable
                             software. Outside of work, I like to spend my time exploring the Bay Area, gaming, and <a href='#'>drawing.</a>
                         </p>
                     </div>

@@ -17,7 +17,7 @@ class Projects extends Component {
                         'A machine learning movie recommender system deployed as a web app with JS and Node.',
                         'http://www.robbypark.com/movies',
                         'https://github.com/robbypark/movie_recommender',
-                        ['JavaScript', 'Node', 'Python', 'Machine Learning']
+                        ['JavaScript', 'Node', 'Python', 'Machine Learning'],
                     )}
 
                     {this.renderProject(
@@ -25,7 +25,8 @@ class Projects extends Component {
                         'An Instagram clone built with Android and Firebase.',
                         '',
                         'https://github.com/robbypark/InstaClone',
-                        ['Java', 'Android', 'Firebase']
+                        ['Java', 'Android', 'Firebase'],
+                        'pic_instaclone.png'
                     )}
 
                     {this.renderProject(
@@ -33,37 +34,41 @@ class Projects extends Component {
                         'A multi-screen weather Android app.',
                         '',
                         'https://github.com/robbypark/SimpleWeather2',
-                        ['Java', 'Android', 'Location Services', 'Weather API']
+                        ['Java', 'Android', 'Location Services', 'Weather API'],
+                        'pic_weather.png'
                     )}
 
                     {this.renderProject(
-                        'PlaceHolder',
-                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                        'Idle Idea',
+                        'An idea tracking app. Deployed to the Google Play Store.',
                         '',
-                        '',
-                        ['Java', 'Android', 'Location Services', 'Weather API']
+                        'https://github.com/robbypark/IdleIdea',
+                        ['Java', 'Android', 'SQLite', 'MVP', 'Play Store'],
+                        'pic_idle.png'
                     )}
 
-                    {/*{this.renderProject(*/}
-                    {/*    'PlaceHolder',*/}
-                    {/*    '',*/}
-                    {/*    '',*/}
-                    {/*    '',*/}
-                    {/*    ['Java', 'Android', 'Location Services', 'Weather API']*/}
-                    {/*)}*/}
+                    {this.renderProject(
+                        'Warcraft 2 Map Editor',
+                        'A Software Engineering course project built by eight students. Closed source, but here is the manual. Was fun to make!',
+                        '',
+                        '',
+                        ['Java', 'Swing', 'File I/O', 'Restful API'],
+                        'pic_wc2.png'
+                    )}
 
                 </div>
             </div>
         );
     }
 
-    renderProject(title, desc, demoUrl, gitUrl, tech) {
+    renderProject(title, desc, demoUrl, gitUrl, tech, imgSrc = 'placeholder.png') {
         let props = {
             title: title,
             desc: desc,
             demoUrl: demoUrl,
             gitUrl: gitUrl,
             tech: tech,
+            imgSrc: imgSrc,
         };
         return (
             <Project {...props}/>

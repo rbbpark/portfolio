@@ -1,17 +1,16 @@
 import React, {Component} from 'react';
 import './Project.css'
-import projectImg from '../../../res/project_placeholder.jpg'
 
 class Project extends Component {
 
     render() {
         return (
             <div className="Project">
-                <img alt='projectImg' src={projectImg}/>
+                <img alt='projectImg' src={require('../../../res/' + this.props.imgSrc)}/>
                 <div className='projectContent'>
                     <h2>{this.props.title}</h2>
                     {this.renderTech(this.props.tech)}
-                    <p>{this.props.desc}</p>
+                    {this.renderDesc(this.props.desc)}
                         <div className='projectLinks'>
                             {this.renderDemoUrl(this.props.demoUrl)}
                             {this.renderGitUrl(this.props.gitUrl)}
@@ -19,6 +18,27 @@ class Project extends Component {
                 </div>
             </div>
         );
+    }
+
+    // small hack to get url working for one project
+    renderDesc(desc) {
+        if(desc.includes('manual')){
+            let arr = desc.split('manual');
+            return (
+                <p>
+                    {arr[0]}
+                    <a href='ecs160manual.pdf'>
+                    {'manual'}
+                    </a>
+                    {arr[1]}
+                </p>
+            )
+        }
+        return (
+            <p>
+                {desc}
+            </p>
+        )
     }
 
     // renders a working link
