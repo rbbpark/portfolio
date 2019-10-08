@@ -24,7 +24,7 @@ class About extends Component {
 
                         <p>
                              I'm eager to learn as much as I can about developing high quality, scalable
-                            software. Outside of work, I like to spend my time exploring the Bay Area, gaming, and <a href='#'>drawing.</a>
+                            software. Outside of work, I like to spend my time exploring the Bay Area, gaming, and <a href='artwork'>drawing.</a>
                         </p>
                     </div>
                 </div>

@@ -18,6 +18,7 @@ class Projects extends Component {
                         'http://www.robbypark.com/movies',
                         'https://github.com/robbypark/movie_recommender',
                         ['JavaScript', 'Node', 'Python', 'Machine Learning'],
+                        'movies_pic.png'
                     )}
 
                     {this.renderProject(
@@ -26,16 +27,7 @@ class Projects extends Component {
                         '',
                         'https://github.com/robbypark/InstaClone',
                         ['Java', 'Android', 'Firebase'],
-                        'pic_instaclone.png'
-                    )}
-
-                    {this.renderProject(
-                        'Simple Weather',
-                        'A multi-screen weather Android app.',
-                        '',
-                        'https://github.com/robbypark/SimpleWeather2',
-                        ['Java', 'Android', 'Location Services', 'Weather API'],
-                        'pic_weather.png'
+                        'insta_pic.png'
                     )}
 
                     {this.renderProject(
@@ -44,7 +36,16 @@ class Projects extends Component {
                         '',
                         'https://github.com/robbypark/IdleIdea',
                         ['Java', 'Android', 'SQLite', 'MVP', 'Play Store'],
-                        'pic_idle.png'
+                        'idea_pic.png'
+                    )}
+
+                    {this.renderProject(
+                        'Simple Weather',
+                        'A multi-screen weather Android app.',
+                        '',
+                        'https://github.com/robbypark/SimpleWeather2',
+                        ['Java', 'Android', 'Location Services', 'Weather API'],
+                        'weather_pic.png'
                     )}
 
                     {this.renderProject(
@@ -53,7 +54,7 @@ class Projects extends Component {
                         '',
                         '',
                         ['Java', 'Swing', 'File I/O', 'Restful API'],
-                        'pic_wc2.png'
+                        'wc2_pic.png'
                     )}
 
                 </div>

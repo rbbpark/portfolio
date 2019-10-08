@@ -27,7 +27,7 @@ class Project extends Component {
             return (
                 <p>
                     {arr[0]}
-                    <a href='ecs160manual.pdf'>
+                    <a href='files/ecs160manual.pdf'>
                     {'manual'}
                     </a>
                     {arr[1]}
