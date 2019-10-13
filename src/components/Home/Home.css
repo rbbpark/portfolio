@@ -13,12 +13,12 @@
 }
 
 .homeContent h1 {
-    font-size: 32pt;
+    font-size: 28pt;
 }
 
 .homeContent h2 {
     margin-top: 10px;
-    font-size: 20pt;
+    font-size: 18pt;
     color: #696A6F;
 }
 
@@ -117,20 +117,29 @@
 @media (max-width: 600px) {
     /*small font*/
     .Home h1 {
-        font-size: 12pt;
+        font-size: 14pt;
     }
 
     .Home h2 {
-        font-size: 8pt;
+        font-size: 10pt;
     }
 
     .Home i {
         font-size: 20px;
     }
 
+    .profilePicWrapper {
+        width: 90px;
+        height: 90px;
+    }
+
     .navBar a {
         font-size: 10pt;
         margin: 10px;
+    }
+
+    .socialLinks i {
+        font-size: 16pt;
     }
 
 }

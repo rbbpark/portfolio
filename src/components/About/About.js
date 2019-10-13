@@ -38,6 +38,7 @@ class About extends Component {
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>SQL</li>
+                        <li>NoSQL</li>
                         <li>React</li>
                         <li>Node</li>
                         <li>Express</li>

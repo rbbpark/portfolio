@@ -11,7 +11,7 @@ class Contact extends Component {
                         <h1>Get In Touch</h1>
                     </ScrollableAnchor>
                     <p>
-                        I'm currently available for opportunities in developer roles in the Bay Area. Please leave a message, and thanks for checking out my site!
+                        I'm currently available for opportunities in developer roles in the Bay Area. Feel free to leave a message, and thanks for checking out my site!
                     </p>
                     <a href='mailto:rbbpark@gmail.com'>Contact</a>
                 </div>

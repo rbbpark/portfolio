@@ -32,8 +32,8 @@ class Projects extends Component {
 
                     {this.renderProject(
                         'Idle Idea',
-                        'An idea tracking app. Deployed to the Google Play Store.',
-                        '',
+                        'An idea tracking app, deployed to the Google Play Store.',
+                        'https://play.google.com/store/apps/details?id=com.robbypark.android.idleidea&hl=en_US',
                         'https://github.com/robbypark/IdleIdea',
                         ['Java', 'Android', 'SQLite', 'MVP', 'Play Store'],
                         'idea_pic.png'
