@@ -17,7 +17,7 @@ class Projects extends Component {
                         'A machine learning movie recommender system deployed as a web app with JS and Node.',
                         'http://www.robbypark.com/movies',
                         'https://github.com/robbypark/movie_recommender',
-                        ['JavaScript', 'Node', 'Python', 'Machine Learning'],
+                        ['React', 'Node', 'Python', 'Machine Learning'],
                         'movies_pic.png'
                     )}
 

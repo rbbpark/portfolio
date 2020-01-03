@@ -19,7 +19,7 @@ class About extends Component {
                         </p>
 
                         <p>
-                            I'm passionate about building cool products that make people's lives easier. Based in San Jose, I am currently working at an internship at BlackBerry developing secure mobile apps.
+                            I'm passionate about building cool products that make people's lives easier. Based in San Jose, I completed an internship at BlackBerry developing secure mobile apps.
                         </p>
 
                         <p>
@@ -38,6 +38,7 @@ class About extends Component {
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>SQL</li>
+                        <li>SQLite</li>
                         <li>NoSQL</li>
                         <li>React</li>
                         <li>Node</li>
@@ -49,6 +50,8 @@ class About extends Component {
                         <li>Linux</li>
                         <li>Jira</li>
                         <li>Jenkins</li>
+                        <li>JUnit</li>
+                        <li>Mockito</li>
                     </ul>
                 </div>
 

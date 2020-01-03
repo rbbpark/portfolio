@@ -27,7 +27,7 @@ class Home extends Component {
                     <div className='socialLinks'>
                         <a href="mailto:rbbpark@gmail.com"><i className="far fa-envelope"/></a>
                         <a href="https://github.com/robbypark"><i className="fab fa-github"/></a>
-                        <a href="https://www.linkedin.com/in/rbpark/"><i className="fab fa-linkedin-in"/></a>
+                        <a href="https://www.linkedin.com/in/robbypark/"><i className="fab fa-linkedin-in"/></a>
                         <a href="files/robby_park_resume.pdf"><i className="far fa-file-pdf"/></a>
                     </div>
                 </div>

@@ -20,7 +20,7 @@ class App extends Component {
                 <Contact/>
 
                 <div className='footer'>
-                    <p>Made by me with JS and React</p>
+                    <p>Made by me with JS and React 🏗️</p>
                 </div>
             </div>
         );

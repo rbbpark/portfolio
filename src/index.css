@@ -28,7 +28,7 @@ h1, h2, i, a {
 i:hover {
   /*background-color: #f44336;*/
   /*opacity: 0.3;*/
-  color: #3844ef;
+  color: #348cff;
   transition: 0.2s;
 }
 
@@ -36,6 +36,6 @@ i:hover {
 a:hover {
   /*background-color: #f44336;*/
   /*opacity: 0.3;*/
-  color: #3844ef;
+  color: #348cff;
   transition: 0.2s;
 }
