@@ -1,7 +1,5 @@
 # Portfolio Website
 
-Try it [here.](https://www.robbypark.com)
-
 ## About
 
 This is a portfolio website built with React and JS (Create React App) to showcase some of my projects. When built, it is a  static page with a few sections and links.
